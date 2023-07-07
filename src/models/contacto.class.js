@@ -1,9 +1,9 @@
-import { STATE } from "./state.enum";
-export class Contact {
+
+export class Contacto {
     name = '';
     last_name = '';
     email = '';
-    conected = STATE.false;
+    conected = false;
     
     constructor(name, last_name, email, conected){
         this.name = name;
