@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { DidmountHook } from '../../hooks/lifecycle/DidMount';
 
 const Clock = () => {
     
@@ -26,7 +25,7 @@ const Clock = () => {
     useEffect(() => {
         DidmountHook()
         return () => {
-            WillunmountHook()
+            WillunmountHook();
         };
     }, []);
     
