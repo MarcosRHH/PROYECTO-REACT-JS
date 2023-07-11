@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+bootstrap-icons-1.10.5/
 
 # testing
 /coverage

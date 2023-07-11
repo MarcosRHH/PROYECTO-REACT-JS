@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Ejemplo2 from './hooks/Ejemplo2';
-import Ejemplo4 from './hooks/Ejemplo4';
-import { Didmount } from './hooks/lifecycle/DidMount';
-import Greetingstyled from './components/pure/greetingStyled';
-/* import Clock from './components/pure/clockClass'; */
-import Clock from './components/pure/clockFunction';
+import ContactListComponent from './components/container/contactList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="App">
+      
         {/* <Didmount/> */}
         {/* <Greetingstyled name="Martín"></Greetingstyled> */}
-        <Clock></Clock>
-      </header> 
-    
-    </div>
+        {/* <Clock></Clock> */}
+        {/* Solucion ejercicio sesiones 4, 5 y 6 */}
+        {/* <Clock></Clock> */}
+        {/* Solucion ejercicio sesiones 7, 8 y 9 */}
+        {/* <ContactL istComponent></ContactL>*/}
+        <ContactListComponent/>
+      </div>
   );
 }
 

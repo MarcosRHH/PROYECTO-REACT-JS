@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// Añadimos Bootstrap a nuestro proyecto
+import 'bootstrap/dist/css/bootstrap.css';
+import './bootstrap-icons-1.10.5/font/bootstrap-icons.css';
+// ! Importante: los estilos propios, deben ir debajo del bootstrap para que no los pise.
 import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <AppRoutingOne /> */}
+    {/* <AppRoutingFinal /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
